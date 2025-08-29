@@ -20,14 +20,14 @@ This project implements an image feature extraction pipeline using VGG16 (pre-tr
 
 # 🚀 How It Works
 ---------------------------------------------------------------------
-Load VGG16 pre-trained model without top classification layers.
-Preprocess each input image (224x224, normalization).
-Extract feature embeddings from the CNN.
-Flatten and normalize features.
-Store extracted features and corresponding image names for later use in recommendation tasks.
+- Load VGG16 pre-trained model without top classification layers.
+- Preprocess each input image (224x224, normalization).
+- Extract feature embeddings from the CNN.
+- Flatten and normalize features.
+- Store extracted features and corresponding image names for later use in recommendation tasks.
 
 # 🔮 Future Enhancements
 ----------------------------------------------------------------------
-Build a similarity search engine (using FAISS or Nearest Neighbors).
-Deploy as a Fashion Recommendation API or Web App.
-Add clustering to categorize similar fashion styles.
+- Build a similarity search engine (using FAISS or Nearest Neighbors).
+- Deploy as a Fashion Recommendation API or Web App.
+- Add clustering to categorize similar fashion styles.
